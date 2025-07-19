@@ -1,0 +1,18 @@
+/* nav related style */
+.navbar{
+    display: flex;
+     justify-content: space-between;
+      
+}
+.nav-links{
+    display: flex;
+   gap: 34px;
+}
+.nav-item{
+     list-style: none;
+ 
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
