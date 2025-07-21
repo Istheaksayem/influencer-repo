@@ -6,11 +6,14 @@
 .navbar{
     display: flex;
      justify-content: space-between;
+     align-items: center;
      
 }
 .nav-links{
     display: flex;
    gap: 34px;
+   padding: 0;
+   margin: 0;
 }
 .nav-item{
      list-style: none;
@@ -20,6 +23,17 @@
     text-decoration: none;
     color: black;
 }
+.nav-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-icon img{
+   height: 24px;
+    width: 24px;
+}
+ 
+
 .btn-primary{
     background-color: #E02C6D;
     color: white;
@@ -30,6 +44,8 @@
     border-radius: 20px;
 
 }
+
+
 .hero-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,7 +70,12 @@
 }
 .btn{
  background-color: #E02C6D;
- font-size: 40px;
+ font-size: 30px;
+ color: white;
+ border: none;
+ border-radius: 15px;
+ padding: 8px;
+
 }
 .card img {
     width: 100%;
@@ -101,6 +122,14 @@
     padding: 10px;
     border: none;
     border-radius: 8px;
+}
+.footer-item{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.645);
+}
+.footer-icon img{
+    height: 24px;
+    width: 24px;
 }
 
 
